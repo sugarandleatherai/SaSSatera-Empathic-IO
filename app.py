@@ -8,8 +8,6 @@ def main():
     runner = DilemmaRunner(guard, scorer)
 
     print("SaSSatera Empathic IO demo\n")
-
-    # run all demo scenarios
     results = runner.run_all("examples/demo_scenarios.json")
 
     for r in results:
