@@ -13,5 +13,9 @@ Core modules:
 - dilemma_runner: Scenario processing and moral thermodynamic analysis
 """
 
+from .recall_guard import RecallGuard
+from .empathy_metrics import EmpathyScorer
+from .dilemma_runner import DilemmaRunner
+
 __version__ = "0.1.0"
 __all__ = ["RecallGuard", "EmpathyScorer", "DilemmaRunner"]
